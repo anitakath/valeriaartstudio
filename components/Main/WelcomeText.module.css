@@ -1,0 +1,25 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+
+}
+
+.welcomeTitle{
+    font-size: 2rem;
+}
+
+.descriptionContainer{
+    color: var(--secondaryFont);
+    width: 70%;
+    display: flex;
+}
+
+.descriptionContainer p{
+    text-align: justify;
+    margin: 10px 0px;
+}

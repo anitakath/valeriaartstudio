@@ -1,0 +1,120 @@
+
+
+.container{
+    background-color: var(--priamaryForeground);
+    min-height: 20vh;
+    box-shadow: 0px 0px 10px var(--primaryForeground);
+}
+
+
+.subContainer{
+    background-color: var(--secondaryForeground);
+    height: 5vh;
+    padding: 5px; 
+    align-items: center;
+}
+
+.headerUl{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.headerUl li{
+    margin: 0px 7px;
+    font-size: 0.8rem;
+    position: relative;
+    top: 3px;
+}
+
+.titleContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.iconsContainer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+
+
+.iconsDiv{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menuButton{
+    transition: 0.2s ease-in-out;
+}
+
+.button{
+    margin: 0px 10px;
+    /*background-color: var(--primaryButton);
+    padding: 5px;
+    width: 100px;*/
+}
+
+.logoContainer{
+    position: relative;
+    top: -10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+      
+}
+
+
+.logoTitle{
+    font-size: 4rem;
+    padding: 0;
+}
+
+.logoSubTitle{
+
+    position: relative;
+    top: -25px;
+}
+
+/**FOOTER*/
+
+
+.footerContainer{
+    background-color: var(--priamaryForeground);
+    min-height: 10vh;
+    box-shadow: 0px 0px 10px var(--primaryForeground);
+}
+
+.socialMediaContainer, .spaceContainer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.socialMediaButton{
+    background-color: var(--secondaryForeground);
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.link{
+    margin: 0px 20px;
+}
