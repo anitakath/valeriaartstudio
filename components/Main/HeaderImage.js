@@ -8,7 +8,7 @@ const HeaderImage = () =>{
     return(
         <div className={styles.container}>
             <Image 
-                src="/images/pexels-steve-1981468.jpg" 
+                src="/images/c.jpg" 
                 alt="title image"
                 width={1200}
                 height={1200}

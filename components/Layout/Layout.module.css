@@ -56,6 +56,11 @@
 
 .menuButton{
     transition: 0.2s ease-in-out;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 8px;
+    color: var(--buttonFont);
 }
 
 .button{
@@ -63,6 +68,12 @@
     /*background-color: var(--primaryButton);
     padding: 5px;
     width: 100px;*/
+}
+
+.basketButton{
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
 }
 
 .logoContainer{
@@ -82,12 +93,20 @@
 .logoTitle{
     font-size: 4rem;
     padding: 0;
+    color: var(--buttonFont)
 }
 
 .logoSubTitle{
-
+    color: var(--buttonFont);
     position: relative;
     top: -25px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    position: relative;
+    left: 4px;
 }
 
 /**FOOTER*/
