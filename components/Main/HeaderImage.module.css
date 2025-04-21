@@ -15,3 +15,12 @@
     object-fit: cover;
     box-shadow: 0px 0px 10px var(--secondaryForeground);
 }
+
+
+@media screen and (max-width: 900px){
+
+    .headerImage{
+        width: 99%;
+    }
+
+}

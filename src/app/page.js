@@ -5,13 +5,9 @@ import MenuBar from "../../components/Layout/MenuBar";
 
 export default function Home() {
   return (
-    <div className=" mb-10 ">
-
-     
+    <div className=" mb-10">
       <HeaderImage/>
       <WelcomeText/>
-
-
 
     </div>
   );
